@@ -1,0 +1,645 @@
+body{
+    margin:0%;
+    background-color: rgb(0, 0, 0);
+  
+}
+.forIcon{
+    width:100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin: auto;
+    position: relative;
+    border:2px solid #0e87fc;
+  }
+  .forIcon .forShopicon{
+    width: 150px;
+    height: 60px;
+    background-color: white;
+    background-image:url(logoName.png);
+    background-size: cover;
+    background-position: center;
+   
+  }
+  .forIcon #cartt{
+    width: auto;
+    height: auto;
+    font-weight:bold;
+    display: flex;
+    border:none;
+    background:none;
+    padding-top: 21px;
+    padding-left: 15px;
+  }
+  .forIcon #cartt .fa-cart-shopping {
+    color: rgb(0, 0, 0);
+    position: relative;
+    font-size: large;
+    
+  }
+  
+  .forIcon #option{
+    height: 20%;
+background: none;
+margin-top: 22px;
+margin-left: 5px;
+font-weight:bold;
+border:none;
+background:none;
+    
+  }
+  .forIcon .fa-user{
+   
+    
+    position: absolute;
+ 
+    color: #0e87fc;
+   font-size: x-large;
+   padding-right: 10px;
+ padding-top: 21px;
+right: 0px;
+   cursor: pointer;
+  
+  }
+  .forNotfication{
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    color: rgb(254, 43, 43);
+    background-color:rgb(254, 43, 43); 
+  transform: translate(0px,-26px);
+  display: none;
+  }
+
+  
+
+
+
+
+
+  
+
+
+ #forNav{
+    position: relative;
+    width: 100%;
+    height:550px;
+    background-color: rgb(0, 0, 0);
+    display:none;
+
+}
+#forNav h3{
+    color: rgb(0, 0, 0);
+    text-align: start;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: medium;
+    text-shadow: 1px 1px 2px rgb(79, 72, 72);
+}
+#forNav #CCB{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+#forNav #CCB #for-add-to-cart{
+   
+    width:50% ;
+    height: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow: scroll;
+ } 
+ .for-add-to-cards{
+    width: 175px;
+    height: 250px;
+    background-color: rgb(224, 195, 157);
+    border-radius: 20px;
+    margin-top: 5px;
+    border: 1px black solid;
+    margin-left: 25px;
+  ;
+}
+ .for-add-to-cards img{
+    width: 100%;
+    height: 55%;
+    border-radius: 20px;
+    
+  }
+ 
+ .for-add-to-cards .forText{
+    
+    height: auto;
+    text-align: center;
+
+    padding-top: px;
+
+    
+ }
+ .for-add-to-cards .price{
+    color: #ea5104;
+ }
+ .for-add-to-cards .forBtnNum{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+
+   
+ }
+ .for-add-to-cards .forBtnNum .numforbtn{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 7px;
+    margin-top: 5px;
+    
+    
+ }
+ .for-add-to-cards .forBtnNum .numforbtn .prevNbtn{
+    width: 25px;
+    height: 25px;
+    font-size: small;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+    cursor: pointer;
+  
+ }
+ .for-add-to-cards .forBtnNum .numforbtn .nextNbtn{
+    width: 25px;
+    height: 25px;
+    font-size: small;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 0;
+margin-top: 0;
+ }
+ .for-add-to-cards .forCancel{
+    padding-top: 10px;
+text-align: center;
+color:red;
+top: 0;
+margin-top: 0;
+cursor: pointer;
+ }
+
+
+ #forNav #CCB #forCloseAndBuy{
+    width: 50%;
+    height: 550px;
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+
+ }
+
+ #forNav #forCloseAndBuy #close{
+    padding-left: 10px;
+font-size: x-large;
+padding-top: 10px;
+color: rgb(0, 0, 0);
+font-style: bold;
+border-radius: 10px;
+float: left;
+cursor: pointer;
+
+ }
+#forNav #forCloseAndBuy #buy{
+    width: 140px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    font-style: bold;
+border-radius: 10px;
+    }
+    #forNav #CCB #forCloseAndBuy #address{
+
+        width: 100%;
+    position: absolute;
+        height: 100%;
+    }
+    #forNav #CCB #forCloseAndBuy #address p{
+        text-align: center;
+        font-weight: bold;
+    }
+    #forNav #forCloseAndBuy #address #shipadd{
+     margin: auto;
+width: 90%;
+height:50% ;
+border: 1px solid rgb(43, 42, 42);
+background: rgba(186, 180, 180, 0.219);
+backdrop-filter: blur(100px);
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+padding-left: 15px;
+padding-top: 15px;
+padding-bottom: 15px;
+    }
+#forNav #forCloseAndBuy #address #shipadd #username{
+        width: 90%;
+    }
+    #forNav #forCloseAndBuy #address #shipadd #gmail{
+        width: 90%;
+    }
+    #forNav #forCloseAndBuy #address #shipadd #tele{
+        width: 90%;
+    }
+    #forNav #forCloseAndBuy #address #shipadd #state{
+        width: 91%;
+    }
+    #forNav #forCloseAndBuy #address #shipadd #apartment{
+        width: 90%;
+    }
+    #forNav #forCloseAndBuy #address #shipadd #ordernote{
+        width: 90%;
+       
+    }
+  #address #orderSummery{
+width: 100%;
+height: auto;
+
+
+    }
+    #address #orderSummery #sumCost{
+        width: 100%;
+        height: auto;
+        
+        display: flex;
+        flex-direction: row;
+    }
+    #address #orderSummery #sumCost #total{
+        display: flex;
+        width: 40%;
+        height: 180px;
+      
+        display: grid;
+        padding: 5px;
+    }
+    
+    #address #orderSummery #sumCost #QRcode{
+    
+        width: 60%;
+        height: 194px;
+        display: grid;
+
+        margin: 0%;
+        padding: 0%;
+    }
+    #address #orderSummery #sumCost #QRcode p{
+        margin: 0%;
+        padding: 0%;
+    }
+    #address #orderSummery #sumCost #QRcode #forQR{
+        width: 140px;
+        height: 140px;
+ padding-bottom: 20px;
+ justify-content: center;
+ margin: auto;
+    }
+  
+ #forContainer #forNavbar{
+ position: relative;
+    width: 150px;
+    height: auto;
+    background: rgba(0, 0, 0, 0.219);
+    backdrop-filter: blur(4px);
+    border-radius: 5px;
+
+   transform: translateX(1374px);
+    display: none;
+    
+    
+}
+#forContainer #forNavbar ol{
+padding-left: 5px;
+display: grid;
+gap: 15px;
+justify-content: space-around;
+text-align: center;
+list-style: none;
+
+
+}
+#forContainer #forNavbar ol #a1{
+font-size: small;
+margin: auto;
+color: white;
+padding-left: 2px;
+padding-top: 10px;
+}
+#forContainer #forNavbar ol #a2{
+    font-size: small;
+    margin: auto;
+    color: white;
+    padding-left: 2px;
+    padding-top: 30px;
+    }
+    #forContainer #forNavbar ol #a3{
+        font-size: small;
+        margin: auto;
+        color: white;
+        padding-top: 30px;
+        padding-left: 2px;
+        }
+#forContainer #forNavbar ol #i1{
+font-size: small;
+padding-left: 4px;
+color: rgb(255, 234, 0);
+}
+#forContainer #forNavbar ol #i2{
+font-size: small;
+padding-left: 4px;
+color: greenyellow;
+}
+#forContainer #forNavbar ol #i3{
+    font-size: small;
+    padding-left: 4px;
+    color: rgb(204, 166, 13);
+}
+.class1{
+  width: 100%;
+  width:auto;
+  display: flex;
+  flex-direction:row;
+  margin: 0%;
+  padding: 0%;
+}
+.class1 .ContainNav{
+    width: 20%;
+    background-color: #000000;
+    height: auto;
+    margin: auto;
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+  
+  }
+  .class1 .ContainNav .NavOl{
+    width:100%;
+    height: auto;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap:40px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+  }
+  .class1 .ContainNav .NavOl a {
+    margin: 4px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .class1 .ContainNav .NavOl a .fa-fire{
+    color: #ea5104;
+   
+  }
+  .class1 .ContainNav .NavOl a .fa-plus{
+    color: rgb(119, 188, 14)
+   
+  }
+  .class1  .ContainNav .NavOl a .fa-house{
+    color: #ffffff;
+   
+  }
+  .class1 .ContainNav .NavOl a .fa-arrow-trend-up{
+    color: #474bc9;
+   
+  }
+  
+  .slider{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+img.displaySlide{
+display: block;
+}
+.next {
+    display: none;
+}
+.prev {
+    display: none;
+    
+}
+
+  
+  
+.class1  #ExContainer{
+   
+    width: 80%;
+    height: auto;
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 0%;
+  }
+  .class1  #ExContainer .con1{
+    position: relative;
+  width:100%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  
+  }
+  .class1 #ExContainer .con2{
+    position: relative;
+    width:100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: none;
+  
+  }
+  .class1 #ExContainer .con3{
+    position: relative;
+    width:100%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+    display: none;
+  }
+  .class1 #ExContainer .con4{
+    position: relative;
+    width:100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+  display: none;
+  }
+  .class1 #ExContainer #fbox{
+    width: 100%;
+    height: auto;
+        display: flex;
+       margin: 0%;
+       padding: 0%;
+     background-color: #474bc9;
+        flex-wrap: wrap;
+
+        
+    }
+    .class1 #ExContainer #fbox .ffbox{
+    width: 140px;
+    height: 190px;
+    background-color: rgb(224, 195, 157);
+    border-radius: 20px;
+    margin-top: 5px;
+    border: 1px black solid;
+    margin-left: 2px;
+   
+  }
+  .class1 #ExContainer #fbox .ffbox .forImage{
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+  }
+  .class1 #ExContainer #fbox .ffbox .altImage{
+  width: 100%;
+  height: 7%;
+  text-align: center;
+  padding: 0%;
+  margin-top: 0%;
+  font-weight: bold;
+  }
+  .class1 #ExContainer #fbox .ffbox .infoImage{
+    width: 100%;
+  height: 18%;
+  text-align: center;
+  font-size: small;
+  padding-top: 4px;
+  overflow: visible;
+  }
+  .class1 #ExContainer #fbox .ffbox .btnImage{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .class1 #ExContainer #fbox .ffbox .btnImage .price{
+    padding-top: 2px;
+  }
+  .class1 #ExContainer #fbox .ffbox .btnImage .add2cart2{
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  
+
+
+
+    .footer{
+        width: 100%;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        margin: auto;
+      box-sizing: border-box;
+      padding-top: 1px;
+      }
+      .footer .footerbox{
+        width: 100%;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        margin: auto;
+        display: flex;
+      flex-wrap: wrap;
+       
+      }
+      .footer .footerbox .sbox1{
+        width: 350px;
+        height: auto;
+        background-color: rgb(0, 0, 0);
+        margin: auto;
+        padding: 10px;
+        flex-grow: 1;
+        flex-basis: 200;
+        text-align: center;
+      }
+      
+      .footer .footerbox .sbox1 .h5a{
+        color: white;
+      }
+      .footer .footerbox .sbox1 .h5a span{
+        color:yellow;
+      }
+      .footer .footerbox .sbox1 .h5a{
+        color: white;
+        text-transform: uppercase;
+      }
+      .footer .footerbox .sbox1 .h5a a {
+        color: white;
+      }
+      .footer .footerbox .bbox1{
+        width: 350px;
+        height: auto;
+        background-color: black;
+        text-align: center;
+        padding: 20px;
+        flex-grow: 1;
+        flex-basis: 200;
+      }
+      .footer .footerbox .bbox1 .h5B{
+        color: white;
+      }
+      .footer .footerbox .bbox1 .h5b{
+        color: white;
+      }
+      .footer .footerbox .sbox2{
+        width: 350px;
+        height: auto;
+        margin: auto;
+        background-color: rgb(0, 0, 0);
+        flex-grow: 1;
+        flex-basis: 200;
+        text-align: center;
+      }
+      .footer .footerbox .sbox2 .h5c{
+        color: white;
+      }
+      .footer .footerbox .sbox2 .forallicon{
+        width: 200px;
+        height: 40px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 5px;
+      border-radius: 15px; 
+      }
+      .footer .footerbox .sbox2 .forallicon .facebook{
+        font-size: xx-large;
+        color: rgb(16, 16, 255)
+        ;margin-top: 4px;
+      }
+      .footer .footerbox .sbox2 .forallicon .inst{
+        font-size: xx-large;
+        color:rgb(240, 13, 225);
+        margin-top: 4px;
+      }
+      .footer .footerbox .sbox2 .forallicon .telegram{
+        font-size: xx-large;
+        color: rgb(106, 213, 252)
+        ;margin-top: 4px;
+      }
+      .footer .footerbox .sbox2 .forallicon .x{
+        font-size: xx-large;
+        color:rgb(0, 0, 0)
+        ;margin-top: 4px;
+        background-color: white;
+        border-radius: 30%;
+      }
+
